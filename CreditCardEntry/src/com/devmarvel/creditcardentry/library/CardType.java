@@ -16,7 +16,7 @@ class CardRegex {
     static final String REGX_JCB = "^35[0-9]{14}$"; // JCB 16
 
     static final String REGX_VISA_TYPE = "^4[0-9]{3}?"; // VISA 16
-    static final String REGX_MC_TYPE = "^(?:5[1-5]|222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[0-1][0-9]|2720)"; // MC 16
+    static final String REGX_MC_TYPE = "^(?:5[1-5][0-9]{2}|222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[0-1][0-9]|2720)"; // MC 16 ^5[1-5][0-9]{2}$
     static final String REGX_AMEX_TYPE = "^3[47][0-9]{2}$"; // AMEX 15
     static final String REGX_DISCOVER_TYPE = "^6(?:011|5[0-9]{2})$"; // Discover 16
     static final String REGX_DINERS_CLUB_TYPE = "^3(?:0[0-5]|[68][0-9])[0-9]$"; // DinersClub 14
